@@ -1,0 +1,143 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Semeng</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <meta charset="utf-8" />
+    <style>
+ #scrollspyx{
+     position: sticky;
+     height: 270px;
+     overflow-y: scroll;
+ }
+ </style>
+</head>
+<body>
+    <!-- conteudo da navbar vindo da solução do site do bootstrap com listagem -->
+    <nav class="navbar navbar-expand-sm navbar-light" style="background-color: #F17B3A;">
+        <a class="navbar-brand" href="Index.html">Semeng</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link active" href="">Eventos <span class="sr-only">(current)</span></a><!-- para ficar selecionado, no "nav-link" colocar "nav-link active"-->
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="">Calendário</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="">Meus Dados</a>
+                </li>
+                <!--<li class="nav-item">
+                    <a class="nav-link disabled" href="#"></a>
+                </li>-->
+            </ul>
+        </div>
+    </nav>
+    <!-- conteudo da navbar vindo da solução do site do bootstrap com listagem -->
+
+
+    <div class="container">
+
+        <div class="row-fluid"><!--gambiarra para criar um espaço entre a navbar e o resto do conteúdo-->
+            <p></p>
+        </div><!--gambiarra para criar um espaço entre a navbar e o resto do conteúdo-->
+
+        <!--conteudo da linha do botão dropdown + label eventos para ficar numa mesma linha-->
+        <div class="row">
+             <div class="col-sm-auto">
+                <p>Eventos</p>
+            </div>
+            <!-- conteudo do drop down menu dos eventos -->
+            <div class="col">
+                <div class="dropdown">
+                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Dropdown button
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <a class="dropdown-item" href="#">Action</a>
+                        <a class="dropdown-item" href="#">Another action</a>
+                        <a class="dropdown-item" href="#">Something else here</a>
+                    </div>
+                </div>
+            </div>
+            <!-- conteudo do drop down menu dos eventos -->
+        </div>
+        <!--conteudo da linha do botão dropdown + label eventos para ficar numa mesma linha-->
+
+        <div class="row-fluid">
+            <!--gambiarra para criar um espaço entre a navbar e o resto do conteúdo-->
+            <p></p>
+        </div><!--gambiarra para criar um espaço entre a navbar e o resto do conteúdo-->
+
+        <div class="row-fluid">
+            <h5>Bootstrap heading</h5>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eleifend maximus leo, eget pharetra velit porta ut. Sed lobortis rutrum orci, a rutrum tortor rutrum a. Pellentesque id nisl vulputate, condimentum ligula eu, finibus lorem. Vivamus et lectus finibus, suscipit erat non, fermentum risus. Suspendisse sagittis augue sem, sit amet consectetur dolor suscipit eget. Aliquam erat volutpat. Proin et quam non nisi maximus auctor. Integer egestas euismod aliquam. Sed convallis dignissim venenatis. Donec imperdiet libero vitae fermentum pharetra. Maecenas imperdiet posuere tortor, molestie lobortis sapien feugiat nec.
+            <p>Ut erat sapien, mollis nec libero et, euismod ullamcorper arcu. Donec nisl enim, pharetra et quam quis, tincidunt pharetra nibh. Phasellus vitae ipsum dolor. Vestibulum quis quam elit. Sed tempor finibus nulla vel iaculis. Vestibulum ac magna erat. Vestibulum in leo sit amet nisi cursus pharetra. Suspendisse potenti. Aliquam dignissim nisl non sem lacinia dictum. Nulla vitae lorem sed mauris vulputate venenatis. Nulla scelerisque sapien neque, ac dignissim felis dictum consectetur. Praesent placerat metus id varius ultricies. In porttitor magna sed pretium pretium. Donec pellentesque metus sem, et laoreet urna elementum in.</p>
+        </div>
+        <div class="row-fluid">
+            <h5>Palestras Disponíveis:</h5>
+        </div>
+        <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="#section1">Section 1</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#section2">Section 2</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#section3">Section 3</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                Section 4
+              </a>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="#section41">Link 1</a>
+                <a class="dropdown-item" href="#section42">Link 2</a>
+              </div>
+            </li>
+          </ul>
+        </nav>
+        <div data-spy="scroll" data-target=".navbar" data-offset="50" id="scrollspyx">
+            <div id="section1" class="container-fluid bg-success" style="padding-top:70px;padding-bottom:70px">
+              <h1>Section 1</h1>
+              <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+              <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+            </div>
+            <div id="section2" class="container-fluid bg-warning" style="padding-top:70px;padding-bottom:70px">
+              <h1>Section 2</h1>
+              <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+              <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+            </div>
+            <div id="section3" class="container-fluid bg-secondary" style="padding-top:70px;padding-bottom:70px">
+              <h1>Section 3</h1>
+              <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+              <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+            </div>
+            <div id="section41" class="container-fluid bg-danger" style="padding-top:70px;padding-bottom:70px">
+              <h1>Section 4 Submenu 1</h1>
+              <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+              <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+            </div>
+            <div id="section42" class="container-fluid bg-info" style="padding-top:70px;padding-bottom:70px">
+              <h1>Section 4 Submenu 2</h1>
+              <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+              <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+            </div>
+          </div>
+</body>
+</html>
