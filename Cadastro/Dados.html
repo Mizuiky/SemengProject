@@ -1,0 +1,76 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Semeng</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <meta charset="utf-8" />
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+    <!-- conteudo da navbar vindo da solução do site do bootstrap com listagem -->
+    <nav class="navbar navbar-expand-sm navbar-light" style="background-color: #F17B3A;">
+        <a class="navbar-brand" href="">Semeng</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="Eventos.html">Eventos <span class="sr-only">(current)</span></a><!-- para ficar selecionado, no "nav-link" colocar "nav-link active"-->
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="">Calendário</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="">Meus Dados</a>
+                </li>
+                <!--<li class="nav-item">
+                    <a class="nav-link disabled" href="#"></a>
+                </li>-->
+            </ul>
+        </div>
+    </nav>
+    <!-- conteudo da navbar vindo da solução do site do bootstrap com listagem -->
+
+	<div class="caixatexto">	
+		<table style="width:100%">
+			<tr>
+				<td>Nome</td> <td id="caixa"><input type="text" name="Nome" size="40"/></td> 
+				<td>Data de Nascimento</td> <td id="caixa"><input type="text" name="dia" size="2" maxlength="2"/> / <input type="text" name="mes" size="2" maxlength="2"/> / <input type="text" name="ano" size="4" maxlength="4"/></td>
+			</tr>
+			<tr>			
+				<td>Endereco</td> <td id="caixa"><input type="text" name="Endereco" size="40"/> </td>
+				<td>CEP</td> <td id="caixa"><input type="text" name="CEP" size="5" maxlength="5"/> - <input type="text" name="CEP2" size="3" maxlength="3"/></td>
+			</tr>
+			<tr>		
+				<td>Cidade</td> <td id="caixa"><input type="text" name="Cidade" size="40"/></td> 
+			</tr>
+			<tr>	
+				<td>Email</td> <td id="caixa"><input type="text" name="Email" size="40"/></td> 
+			</tr>
+			<tr>
+				<td>Telefone</td> <td id="caixa"><input type="text" name="Telefone" size="40"/></td> 
+			</tr>
+			<tr>
+				<td>RG</td> <td id="caixa"><input type="text" name="RG" size="40"/></td>
+				<td>CPF</td> <td id="caixa"><input type="text" name="CPF" size="40" maxlength="11"/></td>
+			</tr>
+			<tr>
+				<td>Senha</td><td id="caixa"><input type="text" name="Senha" size="40"/></td> 
+			</tr>
+		</table>
+	</div>
+	
+</body>
+</html>

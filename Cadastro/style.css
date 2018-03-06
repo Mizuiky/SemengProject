@@ -1,0 +1,18 @@
+.caixatexto {
+	top:15%;
+	width: 90%;
+	left:8%;
+	height:auto;
+	position: absolute;
+	overflow: hidden;
+	font-size:120%;
+}
+
+table, tr, td {
+	border-bottom:35px solid white;
+	text-align: right;
+}
+
+#caixa {
+	text-align:left;
+}
